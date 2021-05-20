@@ -1,0 +1,217 @@
+using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.IO;
+using System.Linq;
+using FFmpeg.AutoGen.CppSharpUnsafeGenerator.Processors;
+
+namespace FFmpeg.AutoGen.CppSharpUnsafeGenerator
+{
+    internal class Program
+    {
+        internal static void Main(string[] args)
+        {
+            //var options = CliOptions.ParseArgumentsStrict(args);
+
+            string ffmpegDir = @"C:\ffmpeg-4.4-full_build-shared";
+            string binDir = Path.Combine(ffmpegDir, "bin");
+            string includeDir = Path.Combine(ffmpegDir, "include");
+
+            var options = new CliOptions()
+            {
+                ClassName = "FFSharp",
+                Namespace = "FFSpace",
+                FFmpegDir = ffmpegDir,
+                FFmpegBinDir = binDir,
+                FFmpegIncludesDir = includeDir,
+                SuppressUnmanagedCodeSecurity = true,
+                OutputDir = "./output",
+                Verbose = true
+            };
+
+            if (options.Verbose)
+            {
+                Console.WriteLine($"Working dir: {Environment.CurrentDirectory}");
+                Console.WriteLine($"Output dir: {options.OutputDir}");
+                Console.WriteLine($"FFmpeg headers dir: {options.FFmpegIncludesDir}");
+                Console.WriteLine($"FFmpeg bin dir: {options.FFmpegBinDir}");
+                Console.WriteLine($"Namespace name: {options.Namespace}");
+                Console.WriteLine($"Class name: {options.ClassName}");
+            }
+
+            var existingInlineFunctions =
+                ExistingInlineFunctionsHelper.LoadInlineFunctions(Path.Combine(options.OutputDir,
+                    "FFmpeg.functions.inline.g.cs"));
+
+            var exports = FunctionExportHelper.LoadFunctionExports(options.FFmpegBinDir).ToArray();
+
+            var astProcessor = new ASTProcessor
+            {
+                FunctionExportMap = exports
+                    .GroupBy(x => x.Name).Select(x => x.First()) // Eliminate duplicated names
+                    .ToDictionary(x => x.Name)
+            };
+            astProcessor.IgnoreUnitNames.Add("__NSConstantString_tag");
+            astProcessor.TypeAliases.Add("int64_t", typeof(long));
+            astProcessor.WellKnownMaros.Add("FFERRTAG", typeof(int));
+            astProcessor.WellKnownMaros.Add("MKTAG", typeof(int));
+            astProcessor.WellKnownMaros.Add("UINT64_C", typeof(ulong));
+            astProcessor.WellKnownMaros.Add("AV_VERSION_INT", typeof(int));
+            astProcessor.WellKnownMaros.Add("AV_VERSION", typeof(string));
+
+            var defines = new[] { "__STDC_CONSTANT_MACROS" };
+
+            var g = new Generator(astProcessor)
+            {
+                IncludeDirs = new[] { options.FFmpegIncludesDir },
+                Defines = defines,
+                Exports = exports,
+                Namespace = options.Namespace,
+                ClassName = options.ClassName,
+                ExistingInlineFunctions = existingInlineFunctions,
+                SuppressUnmanagedCodeSecurity = options.SuppressUnmanagedCodeSecurity
+            };
+
+            //Parse libavutil
+            {
+                ParseLib(g, includeDir, "libavutil",
+                    x =>
+                   x.EndsWith("bswap.h") //leftType == null in MacroPostProcessor.cs DeduceType (90)
+                || x.EndsWith("hwcontext_cuda.h") // miss file cuda.h :(
+                || x.EndsWith("hwcontext_opencl.h") // fatal: 'CL/cl.h' file not found
+                || x.EndsWith("hwcontext_vaapi.h") // (22,10): fatal: 'va/va.h' file not found
+                || x.EndsWith("hwcontext_vdpau.h") // (22,10): fatal: 'vdpau/vdpau.h' file not found
+                || x.EndsWith("hwcontext_videotoolbox.h") // (24,10): fatal: 'VideoToolbox/VideoToolbox.h'
+                || x.EndsWith("hwcontext_vulkan.h") //(22,10):fatal: 'vulkan/vulkan.h' file not found
+                || x.EndsWith("intreadwrite.h") //leftType == null in MacroPostProcessor.cs DeduceType (90)
+                );
+            }
+
+            //Parse libswresample
+            {
+                ParseLib(g, includeDir, "libswresample",
+                    null
+                );
+           
+            }
+
+            //Parse libpostproc
+            {
+                ParseLib(g, includeDir, "libpostproc",
+                   null
+               );
+            }
+
+            //Parse libswscale
+            {
+                ParseLib(g, includeDir, "libswscale",
+                   null
+               );
+            }
+
+            //Parse libavcodec
+            {
+                ParseLib(g, includeDir, "libavcodec",
+                    x =>
+                   x.EndsWith("vdpau.h") //vdpau/vdpau.h  file not found
+                || x.EndsWith("videotoolbox.h") //videotoolbox/Videotoolbox.h  file not found
+                || x.EndsWith("xvmc.h") //(30,10): fatal: 'X11/extensions/XvMC.h' file not found
+                );
+            }
+
+
+            /*dirName = "mfx";
+            string[] mfxFiles = Directory.GetFiles(Path.Combine(options.FFmpegIncludesDir, dirName));
+            foreach(var file in mfxFiles)
+            {
+                g.Parse(file.Replace(options.FFmpegIncludesDir + "/", ""));
+            }*/
+
+            //Parse libavformat
+            {
+                ParseLib(g, includeDir, "libavformat",
+                   null
+               );
+            }
+
+            //Parse libavfilter
+            {
+                ParseLib(g, includeDir, "libavfilter",
+                   null
+               );
+            }
+
+            //Parse libavdevice
+            {
+                ParseLib(g, includeDir, "libavdevice",
+                   null
+               );
+            }
+
+            g.WriteLibraries(Path.Combine(options.OutputDir, "FFmpeg.libraries.g.cs"));
+            g.WriteMacros(Path.Combine(options.OutputDir, "FFmpeg.macros.g.cs"));
+            g.WriteEnums(Path.Combine(options.OutputDir, "FFmpeg.enums.g.cs"));
+            g.WriteDelegates(Path.Combine(options.OutputDir, "FFmpeg.delegates.g.cs"));
+            g.WriteArrays(Path.Combine(options.OutputDir, "FFmpeg.arrays.g.cs"));
+            g.WriteStructures(Path.Combine(options.OutputDir, "FFmpeg.structs.g.cs"));
+            g.WriteIncompleteStructures(Path.Combine(options.OutputDir, "FFmpeg.structs.incomplete.g.cs"));
+            g.WriteExportFunctions(Path.Combine(options.OutputDir, "FFmpeg.functions.export.g.cs"));
+            g.WriteInlineFunctions(Path.Combine(options.OutputDir, "FFmpeg.functions.inline.g.cs"));
+
+            // Run latest dotnet format
+            {
+                using var p = Process.Start(new ProcessStartInfo
+                {
+                    FileName = "dotnet",
+                    Arguments = "tool install --global dotnet-format",
+                    WorkingDirectory = options.OutputDir,
+                });
+                p.WaitForExit();
+            }
+            {
+                using var p = Process.Start(new ProcessStartInfo
+                {
+                    FileName = "dotnet",
+                    Arguments = "tool update --global dotnet-format",
+                    WorkingDirectory = options.OutputDir,
+                });
+                p.WaitForExit();
+            }
+            {
+                using var p = Process.Start(new ProcessStartInfo
+                {
+                    FileName = "dotnet",
+                    Arguments = "format",
+                    WorkingDirectory = options.OutputDir,
+                });
+                p.WaitForExit();
+            }
+        }
+
+        public static void ParseLib(Generator g, string includeDir, string dirName,
+            Predicate<string> removeFromSearch)
+        {
+            string searchOption = "*.h";
+            string dirPath = Path.Combine(includeDir, dirName);
+
+            Console.WriteLine("\nSTART PARSE FROM DIRECTORY " + dirName + "\n");
+
+            //Search all .h files from dir
+            List<string> libAvFiles = new List<String>(
+                from f in Directory.GetFiles(dirPath,
+                searchOption,
+                SearchOption.TopDirectoryOnly)
+                select f.Replace(includeDir + "\\", ""));
+
+            //Remove files аiles that cause exceptions
+            if (removeFromSearch != null) libAvFiles.RemoveAll(removeFromSearch);
+
+            foreach (var file in libAvFiles)
+            {
+                Console.WriteLine("\nTRY PARSE FILE : " + file + " : ");
+                g.Parse(file);
+            }
+
+        }
+    }
+}
