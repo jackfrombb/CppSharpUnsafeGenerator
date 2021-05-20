@@ -2,8 +2,8 @@ Working dir: C:\Users\Admin\Desktop 2\FFmpeg.AutoGen-master\FFmpeg.AutoGen.CppSh
 Output dir: ./output
 FFmpeg headers dir: C:\ffmpeg-4.4-full_build-shared\include
 FFmpeg bin dir: C:\ffmpeg-4.4-full_build-shared\bin
-Namespace name: FFSpace
-Class name: FFSharp
+Namespace name: FFmpeg.Autogen
+Class name: ffmpeg
 
 START PARSE FROM DIRECTORY libavutil
 
@@ -16,12 +16,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -37,12 +37,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -58,12 +58,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -79,12 +79,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -100,12 +100,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -121,12 +121,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -142,12 +142,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -163,12 +163,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -184,12 +184,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -205,12 +205,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -226,12 +226,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -247,12 +247,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -268,12 +268,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -289,12 +289,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -310,12 +310,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -331,12 +331,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -352,12 +352,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -373,12 +373,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -394,12 +394,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -415,12 +415,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -436,12 +436,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -457,12 +457,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -478,12 +478,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -499,12 +499,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -520,12 +520,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -541,12 +541,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -562,12 +562,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -583,12 +583,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -604,12 +604,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -625,12 +625,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -646,12 +646,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -667,12 +667,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -688,12 +688,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -709,12 +709,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -730,12 +730,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -751,12 +751,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -772,12 +772,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -793,12 +793,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -814,12 +814,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -835,12 +835,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -856,12 +856,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -922,12 +922,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -943,12 +943,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -964,12 +964,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -985,12 +985,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -1006,12 +1006,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -1027,12 +1027,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -1048,12 +1048,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -1069,12 +1069,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -1090,12 +1090,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -1111,12 +1111,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -1132,12 +1132,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -1153,12 +1153,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -1174,12 +1174,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -1195,12 +1195,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -1216,12 +1216,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -1237,12 +1237,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -1258,12 +1258,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -1279,12 +1279,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -1300,12 +1300,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -1321,12 +1321,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -1342,12 +1342,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -1363,12 +1363,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -1384,12 +1384,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -1405,12 +1405,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -1426,12 +1426,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -1447,12 +1447,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -1468,12 +1468,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -1489,12 +1489,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -1510,12 +1510,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -1531,12 +1531,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -1552,12 +1552,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -1573,12 +1573,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -1594,12 +1594,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -1615,12 +1615,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -1636,12 +1636,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -1657,12 +1657,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -1678,12 +1678,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -1699,12 +1699,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -1723,12 +1723,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -1744,12 +1744,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -1768,12 +1768,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -1789,12 +1789,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -1813,12 +1813,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -1834,12 +1834,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -1858,12 +1858,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -1879,12 +1879,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -1900,12 +1900,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -1921,12 +1921,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -1942,12 +1942,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -1963,12 +1963,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -1984,12 +1984,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -2005,12 +2005,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -2026,12 +2026,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -2047,12 +2047,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -2068,12 +2068,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -2089,12 +2089,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -2110,12 +2110,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -2131,12 +2131,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -2152,12 +2152,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -2173,12 +2173,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -2194,12 +2194,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -2215,12 +2215,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -2281,12 +2281,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -2302,12 +2302,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -2323,12 +2323,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -2347,12 +2347,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -2368,12 +2368,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -2389,12 +2389,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -2413,12 +2413,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -2434,12 +2434,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -2455,12 +2455,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -2476,12 +2476,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -2500,12 +2500,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -2521,12 +2521,12 @@ Compiler argument: -fms-extensions
 Compiler argument: -fms-compatibility
 Compiler argument: -fdelayed-template-parsing
 Target triple: x86_64-pc-windows-msvc
-ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
 #include "..." search starts here:
 #include <...> search starts here:
  C:\ffmpeg-4.4-full_build-shared\include
  lib\clang\12.0.0\include
  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include
  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
  C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
@@ -2535,8 +2535,6 @@ End of search list.
 Parsed 'libavdevice\version.h'
 Инструмент "dotnet-format" уже установлен.
 Инструмент "dotnet-format" был переустановлен с последней стабильной версией (версией "5.1.225507").
-Не удалось найти файл проекта или решения MSBuild в "C:\Users\Admin\Desktop 2\FFmpeg.AutoGen-master\FFmpeg.AutoGen.CppSharpUnsafeGenerator\bin\Debug\net5\output". Укажите используемый файл с помощью аргумента <workspace>.
+  Форматирование кода файлов в рабочей области "C:\Users\Admin\Desktop 2\FFmpeg.AutoGen-master\FFmpeg.AutoGen.CppSharpUnsafeGenerator\bin\Debug\net5\output\FFmpeg.AutoGen.csproj".
+  Форматирование завершено. Время выполнения: 5727 мс.
 
-C:\Users\Admin\Desktop 2\FFmpeg.AutoGen-master\FFmpeg.AutoGen.CppSharpUnsafeGenerator\bin\Debug\net5\FFmpeg.AutoGen.CppSharpUnsafeGenerator.exe (процесс 5228) завершил работу с кодом 0.
-Чтобы автоматически закрывать консоль при остановке отладки, включите параметр "Сервис" ->"Параметры" ->"Отладка" -> "Автоматически закрыть консоль при остановке отладки".
-Нажмите любую клавишу, чтобы закрыть это окно…
