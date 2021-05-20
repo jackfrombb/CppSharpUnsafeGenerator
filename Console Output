@@ -1,0 +1,2542 @@
+Working dir: C:\Users\Admin\Desktop 2\FFmpeg.AutoGen-master\FFmpeg.AutoGen.CppSharpUnsafeGenerator\bin\Debug\net5
+Output dir: ./output
+FFmpeg headers dir: C:\ffmpeg-4.4-full_build-shared\include
+FFmpeg bin dir: C:\ffmpeg-4.4-full_build-shared\bin
+Namespace name: FFSpace
+Class name: FFSharp
+
+START PARSE FROM DIRECTORY libavutil
+
+
+TRY PARSE FILE : libavutil\adler32.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\adler32.h'
+
+TRY PARSE FILE : libavutil\aes.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\aes.h'
+
+TRY PARSE FILE : libavutil\aes_ctr.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\aes_ctr.h'
+
+TRY PARSE FILE : libavutil\attributes.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\attributes.h'
+
+TRY PARSE FILE : libavutil\audio_fifo.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\audio_fifo.h'
+
+TRY PARSE FILE : libavutil\avassert.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\avassert.h'
+
+TRY PARSE FILE : libavutil\avconfig.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\avconfig.h'
+
+TRY PARSE FILE : libavutil\avstring.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\avstring.h'
+
+TRY PARSE FILE : libavutil\avutil.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\avutil.h'
+
+TRY PARSE FILE : libavutil\base64.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\base64.h'
+
+TRY PARSE FILE : libavutil\blowfish.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\blowfish.h'
+
+TRY PARSE FILE : libavutil\bprint.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\bprint.h'
+
+TRY PARSE FILE : libavutil\buffer.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\buffer.h'
+
+TRY PARSE FILE : libavutil\camellia.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\camellia.h'
+
+TRY PARSE FILE : libavutil\cast5.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\cast5.h'
+
+TRY PARSE FILE : libavutil\channel_layout.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\channel_layout.h'
+
+TRY PARSE FILE : libavutil\common.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\common.h'
+
+TRY PARSE FILE : libavutil\cpu.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\cpu.h'
+
+TRY PARSE FILE : libavutil\crc.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\crc.h'
+
+TRY PARSE FILE : libavutil\des.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\des.h'
+
+TRY PARSE FILE : libavutil\dict.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\dict.h'
+
+TRY PARSE FILE : libavutil\display.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\display.h'
+
+TRY PARSE FILE : libavutil\dovi_meta.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\dovi_meta.h'
+
+TRY PARSE FILE : libavutil\downmix_info.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\downmix_info.h'
+
+TRY PARSE FILE : libavutil\encryption_info.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\encryption_info.h'
+
+TRY PARSE FILE : libavutil\error.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\error.h'
+
+TRY PARSE FILE : libavutil\eval.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\eval.h'
+
+TRY PARSE FILE : libavutil\ffversion.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\ffversion.h'
+
+TRY PARSE FILE : libavutil\fifo.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\fifo.h'
+
+TRY PARSE FILE : libavutil\file.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\file.h'
+
+TRY PARSE FILE : libavutil\film_grain_params.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\film_grain_params.h'
+
+TRY PARSE FILE : libavutil\frame.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\frame.h'
+
+TRY PARSE FILE : libavutil\hash.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\hash.h'
+
+TRY PARSE FILE : libavutil\hdr_dynamic_metadata.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\hdr_dynamic_metadata.h'
+
+TRY PARSE FILE : libavutil\hmac.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\hmac.h'
+
+TRY PARSE FILE : libavutil\hwcontext.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\hwcontext.h'
+
+TRY PARSE FILE : libavutil\hwcontext_d3d11va.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\hwcontext_d3d11va.h'
+
+TRY PARSE FILE : libavutil\hwcontext_drm.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\hwcontext_drm.h'
+
+TRY PARSE FILE : libavutil\hwcontext_dxva2.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\hwcontext_dxva2.h'
+
+TRY PARSE FILE : libavutil\hwcontext_mediacodec.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\hwcontext_mediacodec.h'
+
+TRY PARSE FILE : libavutil\hwcontext_qsv.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\hwcontext_qsv.h'
+Export not found. Skipping MFXInit function.
+Export not found. Skipping MFXInitEx function.
+Export not found. Skipping MFXClose function.
+Export not found. Skipping MFXQueryIMPL function.
+Export not found. Skipping MFXQueryVersion function.
+Export not found. Skipping MFXJoinSession function.
+Export not found. Skipping MFXDisjoinSession function.
+Export not found. Skipping MFXCloneSession function.
+Export not found. Skipping MFXSetPriority function.
+Export not found. Skipping MFXGetPriority function.
+Export not found. Skipping MFXDoWork function.
+Export not found. Skipping MFXVideoCORE_SetBufferAllocator function.
+Export not found. Skipping MFXVideoCORE_SetFrameAllocator function.
+Export not found. Skipping MFXVideoCORE_SetHandle function.
+Export not found. Skipping MFXVideoCORE_GetHandle function.
+Export not found. Skipping MFXVideoCORE_QueryPlatform function.
+Export not found. Skipping MFXVideoCORE_SyncOperation function.
+Export not found. Skipping MFXVideoENCODE_Query function.
+Export not found. Skipping MFXVideoENCODE_QueryIOSurf function.
+Export not found. Skipping MFXVideoENCODE_Init function.
+Export not found. Skipping MFXVideoENCODE_Reset function.
+Export not found. Skipping MFXVideoENCODE_Close function.
+Export not found. Skipping MFXVideoENCODE_GetVideoParam function.
+Export not found. Skipping MFXVideoENCODE_GetEncodeStat function.
+Export not found. Skipping MFXVideoENCODE_EncodeFrameAsync function.
+Export not found. Skipping MFXVideoDECODE_Query function.
+Export not found. Skipping MFXVideoDECODE_DecodeHeader function.
+Export not found. Skipping MFXVideoDECODE_QueryIOSurf function.
+Export not found. Skipping MFXVideoDECODE_Init function.
+Export not found. Skipping MFXVideoDECODE_Reset function.
+Export not found. Skipping MFXVideoDECODE_Close function.
+Export not found. Skipping MFXVideoDECODE_GetVideoParam function.
+Export not found. Skipping MFXVideoDECODE_GetDecodeStat function.
+Export not found. Skipping MFXVideoDECODE_SetSkipMode function.
+Export not found. Skipping MFXVideoDECODE_GetPayload function.
+Export not found. Skipping MFXVideoDECODE_DecodeFrameAsync function.
+Export not found. Skipping MFXVideoVPP_Query function.
+Export not found. Skipping MFXVideoVPP_QueryIOSurf function.
+Export not found. Skipping MFXVideoVPP_Init function.
+Export not found. Skipping MFXVideoVPP_Reset function.
+Export not found. Skipping MFXVideoVPP_Close function.
+Export not found. Skipping MFXVideoVPP_GetVideoParam function.
+Export not found. Skipping MFXVideoVPP_GetVPPStat function.
+Export not found. Skipping MFXVideoVPP_RunFrameVPPAsync function.
+Export not found. Skipping MFXVideoVPP_RunFrameVPPAsyncEx function.
+
+TRY PARSE FILE : libavutil\imgutils.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\imgutils.h'
+
+TRY PARSE FILE : libavutil\intfloat.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\intfloat.h'
+
+TRY PARSE FILE : libavutil\lfg.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\lfg.h'
+
+TRY PARSE FILE : libavutil\log.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\log.h'
+
+TRY PARSE FILE : libavutil\lzo.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\lzo.h'
+
+TRY PARSE FILE : libavutil\macros.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\macros.h'
+
+TRY PARSE FILE : libavutil\mastering_display_metadata.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\mastering_display_metadata.h'
+
+TRY PARSE FILE : libavutil\mathematics.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\mathematics.h'
+
+TRY PARSE FILE : libavutil\md5.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\md5.h'
+
+TRY PARSE FILE : libavutil\mem.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\mem.h'
+
+TRY PARSE FILE : libavutil\motion_vector.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\motion_vector.h'
+
+TRY PARSE FILE : libavutil\murmur3.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\murmur3.h'
+
+TRY PARSE FILE : libavutil\opt.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\opt.h'
+
+TRY PARSE FILE : libavutil\parseutils.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\parseutils.h'
+
+TRY PARSE FILE : libavutil\pixdesc.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\pixdesc.h'
+
+TRY PARSE FILE : libavutil\pixelutils.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\pixelutils.h'
+
+TRY PARSE FILE : libavutil\pixfmt.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\pixfmt.h'
+
+TRY PARSE FILE : libavutil\random_seed.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\random_seed.h'
+
+TRY PARSE FILE : libavutil\rational.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\rational.h'
+
+TRY PARSE FILE : libavutil\rc4.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\rc4.h'
+
+TRY PARSE FILE : libavutil\replaygain.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\replaygain.h'
+
+TRY PARSE FILE : libavutil\ripemd.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\ripemd.h'
+
+TRY PARSE FILE : libavutil\samplefmt.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\samplefmt.h'
+
+TRY PARSE FILE : libavutil\sha.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\sha.h'
+
+TRY PARSE FILE : libavutil\sha512.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\sha512.h'
+
+TRY PARSE FILE : libavutil\spherical.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\spherical.h'
+
+TRY PARSE FILE : libavutil\stereo3d.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\stereo3d.h'
+
+TRY PARSE FILE : libavutil\tea.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\tea.h'
+
+TRY PARSE FILE : libavutil\threadmessage.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\threadmessage.h'
+
+TRY PARSE FILE : libavutil\time.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\time.h'
+
+TRY PARSE FILE : libavutil\timecode.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\timecode.h'
+
+TRY PARSE FILE : libavutil\timestamp.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\timestamp.h'
+
+TRY PARSE FILE : libavutil\tree.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\tree.h'
+
+TRY PARSE FILE : libavutil\twofish.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\twofish.h'
+
+TRY PARSE FILE : libavutil\tx.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\tx.h'
+
+TRY PARSE FILE : libavutil\version.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\version.h'
+
+TRY PARSE FILE : libavutil\video_enc_params.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\video_enc_params.h'
+
+TRY PARSE FILE : libavutil\xtea.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavutil\xtea.h'
+
+START PARSE FROM DIRECTORY libswresample
+
+
+TRY PARSE FILE : libswresample\swresample.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libswresample\swresample.h'
+
+TRY PARSE FILE : libswresample\version.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libswresample\version.h'
+
+START PARSE FROM DIRECTORY libpostproc
+
+
+TRY PARSE FILE : libpostproc\postprocess.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libpostproc\postprocess.h'
+
+TRY PARSE FILE : libpostproc\version.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libpostproc\version.h'
+
+START PARSE FROM DIRECTORY libswscale
+
+
+TRY PARSE FILE : libswscale\swscale.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libswscale\swscale.h'
+
+TRY PARSE FILE : libswscale\version.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libswscale\version.h'
+
+START PARSE FROM DIRECTORY libavcodec
+
+
+TRY PARSE FILE : libavcodec\ac3_parser.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavcodec\ac3_parser.h'
+
+TRY PARSE FILE : libavcodec\adts_parser.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavcodec\adts_parser.h'
+
+TRY PARSE FILE : libavcodec\avcodec.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavcodec\avcodec.h'
+
+TRY PARSE FILE : libavcodec\avdct.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavcodec\avdct.h'
+
+TRY PARSE FILE : libavcodec\avfft.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavcodec\avfft.h'
+
+TRY PARSE FILE : libavcodec\bsf.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavcodec\bsf.h'
+
+TRY PARSE FILE : libavcodec\codec.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavcodec\codec.h'
+
+TRY PARSE FILE : libavcodec\codec_desc.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavcodec\codec_desc.h'
+
+TRY PARSE FILE : libavcodec\codec_id.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavcodec\codec_id.h'
+
+TRY PARSE FILE : libavcodec\codec_par.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavcodec\codec_par.h'
+
+TRY PARSE FILE : libavcodec\d3d11va.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavcodec\d3d11va.h'
+
+TRY PARSE FILE : libavcodec\dirac.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavcodec\dirac.h'
+
+TRY PARSE FILE : libavcodec\dv_profile.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavcodec\dv_profile.h'
+
+TRY PARSE FILE : libavcodec\dxva2.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavcodec\dxva2.h'
+
+TRY PARSE FILE : libavcodec\jni.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavcodec\jni.h'
+
+TRY PARSE FILE : libavcodec\mediacodec.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavcodec\mediacodec.h'
+
+TRY PARSE FILE : libavcodec\packet.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavcodec\packet.h'
+
+TRY PARSE FILE : libavcodec\qsv.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavcodec\qsv.h'
+Export not found. Skipping MFXInit function.
+Export not found. Skipping MFXInitEx function.
+Export not found. Skipping MFXClose function.
+Export not found. Skipping MFXQueryIMPL function.
+Export not found. Skipping MFXQueryVersion function.
+Export not found. Skipping MFXJoinSession function.
+Export not found. Skipping MFXDisjoinSession function.
+Export not found. Skipping MFXCloneSession function.
+Export not found. Skipping MFXSetPriority function.
+Export not found. Skipping MFXGetPriority function.
+Export not found. Skipping MFXDoWork function.
+Export not found. Skipping MFXVideoCORE_SetBufferAllocator function.
+Export not found. Skipping MFXVideoCORE_SetFrameAllocator function.
+Export not found. Skipping MFXVideoCORE_SetHandle function.
+Export not found. Skipping MFXVideoCORE_GetHandle function.
+Export not found. Skipping MFXVideoCORE_QueryPlatform function.
+Export not found. Skipping MFXVideoCORE_SyncOperation function.
+Export not found. Skipping MFXVideoENCODE_Query function.
+Export not found. Skipping MFXVideoENCODE_QueryIOSurf function.
+Export not found. Skipping MFXVideoENCODE_Init function.
+Export not found. Skipping MFXVideoENCODE_Reset function.
+Export not found. Skipping MFXVideoENCODE_Close function.
+Export not found. Skipping MFXVideoENCODE_GetVideoParam function.
+Export not found. Skipping MFXVideoENCODE_GetEncodeStat function.
+Export not found. Skipping MFXVideoENCODE_EncodeFrameAsync function.
+Export not found. Skipping MFXVideoDECODE_Query function.
+Export not found. Skipping MFXVideoDECODE_DecodeHeader function.
+Export not found. Skipping MFXVideoDECODE_QueryIOSurf function.
+Export not found. Skipping MFXVideoDECODE_Init function.
+Export not found. Skipping MFXVideoDECODE_Reset function.
+Export not found. Skipping MFXVideoDECODE_Close function.
+Export not found. Skipping MFXVideoDECODE_GetVideoParam function.
+Export not found. Skipping MFXVideoDECODE_GetDecodeStat function.
+Export not found. Skipping MFXVideoDECODE_SetSkipMode function.
+Export not found. Skipping MFXVideoDECODE_GetPayload function.
+Export not found. Skipping MFXVideoDECODE_DecodeFrameAsync function.
+Export not found. Skipping MFXVideoVPP_Query function.
+Export not found. Skipping MFXVideoVPP_QueryIOSurf function.
+Export not found. Skipping MFXVideoVPP_Init function.
+Export not found. Skipping MFXVideoVPP_Reset function.
+Export not found. Skipping MFXVideoVPP_Close function.
+Export not found. Skipping MFXVideoVPP_GetVideoParam function.
+Export not found. Skipping MFXVideoVPP_GetVPPStat function.
+Export not found. Skipping MFXVideoVPP_RunFrameVPPAsync function.
+Export not found. Skipping MFXVideoVPP_RunFrameVPPAsyncEx function.
+
+TRY PARSE FILE : libavcodec\vaapi.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavcodec\vaapi.h'
+
+TRY PARSE FILE : libavcodec\version.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavcodec\version.h'
+
+TRY PARSE FILE : libavcodec\vorbis_parser.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavcodec\vorbis_parser.h'
+
+START PARSE FROM DIRECTORY libavformat
+
+
+TRY PARSE FILE : libavformat\avformat.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavformat\avformat.h'
+
+TRY PARSE FILE : libavformat\avio.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavformat\avio.h'
+
+TRY PARSE FILE : libavformat\version.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavformat\version.h'
+
+START PARSE FROM DIRECTORY libavfilter
+
+
+TRY PARSE FILE : libavfilter\avfilter.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavfilter\avfilter.h'
+
+TRY PARSE FILE : libavfilter\buffersink.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavfilter\buffersink.h'
+
+TRY PARSE FILE : libavfilter\buffersrc.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavfilter\buffersrc.h'
+
+TRY PARSE FILE : libavfilter\version.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavfilter\version.h'
+
+START PARSE FROM DIRECTORY libavdevice
+
+
+TRY PARSE FILE : libavdevice\avdevice.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavdevice\avdevice.h'
+
+TRY PARSE FILE : libavdevice\version.h :
+Compiler argument: -xc
+Compiler argument: -std=gnu99
+Compiler argument: -fno-rtti
+Compiler argument: -fms-extensions
+Compiler argument: -fms-compatibility
+Compiler argument: -fdelayed-template-parsing
+Target triple: x86_64-pc-windows-msvc
+ignoring nonexistent directory "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\atlmfc\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\ffmpeg-4.4-full_build-shared\include
+ lib\clang\12.0.0\include
+ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include
+ C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\ucrt
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um
+ C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt
+End of search list.
+Parsed 'libavdevice\version.h'
+Инструмент "dotnet-format" уже установлен.
+Инструмент "dotnet-format" был переустановлен с последней стабильной версией (версией "5.1.225507").
+Не удалось найти файл проекта или решения MSBuild в "C:\Users\Admin\Desktop 2\FFmpeg.AutoGen-master\FFmpeg.AutoGen.CppSharpUnsafeGenerator\bin\Debug\net5\output". Укажите используемый файл с помощью аргумента <workspace>.
+
+C:\Users\Admin\Desktop 2\FFmpeg.AutoGen-master\FFmpeg.AutoGen.CppSharpUnsafeGenerator\bin\Debug\net5\FFmpeg.AutoGen.CppSharpUnsafeGenerator.exe (процесс 5228) завершил работу с кодом 0.
+Чтобы автоматически закрывать консоль при остановке отладки, включите параметр "Сервис" ->"Параметры" ->"Отладка" -> "Автоматически закрыть консоль при остановке отладки".
+Нажмите любую клавишу, чтобы закрыть это окно…
