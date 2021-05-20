@@ -19,8 +19,8 @@ namespace FFmpeg.AutoGen.CppSharpUnsafeGenerator
 
             var options = new CliOptions()
             {
-                ClassName = "FFSharp",
-                Namespace = "FFSpace",
+                ClassName = "ffmpeg",
+                Namespace = "FFmpeg.Autogen",
                 FFmpegDir = ffmpegDir,
                 FFmpegBinDir = binDir,
                 FFmpegIncludesDir = includeDir,
