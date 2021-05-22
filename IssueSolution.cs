@@ -21,7 +21,7 @@
                 {
                     long frameNum = 0;
 
-                    Console.WriteLine("Frame Encode start");
+                    Console.WriteLine("Decode start");
 
                     while (decoder.TryDecodeNextFrame(out var rawFrame) && started)
                     {
@@ -39,7 +39,7 @@
                         frameNum += 1;
                     }
                     
-                    Console.WriteLine("END Frame Encode " + frameNum);
+                    Console.WriteLine("Decode END " + frameNum);
                 }
             }
         }
