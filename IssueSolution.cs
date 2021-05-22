@@ -27,15 +27,14 @@
                     {
                         var frame = frameConverter.Convert(rawFrame);
 
-                        using (Bitmap bitmap = (Bitmap)new Bitmap(frame.width, frame.height, frame.linesize[0],
-                               System.Drawing.Imaging.PixelFormat.Format24bppRgb, (IntPtr)frame.data[0]))
-                        {
-                            //Send to subscriber
-                            if (OnFilterResultEvent != null && started)
-                                OnFilterResultEvent(
-                                    new MoveDetectionArgs() { OutputFrame = (Bitmap)bitmap.Clone(), IsSuccess = true },
-                                    this);
-                        }
+                       Bitmap bitmap = (Bitmap)new Bitmap(frame.width, frame.height, frame.linesize[0],
+                               System.Drawing.Imaging.PixelFormat.Format24bppRgb, (IntPtr)frame.data[0]);
+                               
+                       //Send to subscriber
+                       if (OnFilterResultEvent != null && started)
+                             OnFilterResultEvent(
+                                new MoveDetectionArgs() { OutputFrame = bitmap, IsSuccess = true },
+                                this);
 
                         frameNum += 1;
                     }
