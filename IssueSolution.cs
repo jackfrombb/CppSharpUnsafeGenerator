@@ -21,8 +21,6 @@
                 {
                     long frameNum = 0;
 
-                    Console.WriteLine("Decode start");
-
                     while (decoder.TryDecodeNextFrame(out var rawFrame) && started)
                     {
                         var frame = frameConverter.Convert(rawFrame);
