@@ -174,7 +174,7 @@ public sealed unsafe class VideoStreamDecoder : IDisposable
             if (_pCodecContext == null)
                 throw new Exception("Codec init error");
 
-            //ffmpeg.avformat_find_stream_info(_pFormatContext, null);
+            ffmpeg.avformat_find_stream_info(_pFormatContext, null); //This is necessary to determine the parameters of online broadcasting
 
             if (_videoStream->codecpar->extradata != null)
             {
@@ -204,7 +204,7 @@ public sealed unsafe class VideoStreamDecoder : IDisposable
 
             CodecName = ffmpeg.avcodec_get_name(codec->id);
             FrameSize = new Size(_videoStream->codecpar->width,_videoStream->codecpar->height);
-            PixelFormat = _pCodecContext->sw_pix_fmt;
+            PixelFormat = _pCodecContext->sw_pix_fmt; //It doesn't work (== AV_HWDEVICE_TYPE_NONE before the first frame)
 
             Console.WriteLine("Codec: " + CodecName.ToString());
             Console.WriteLine("Size: " + FrameSize.ToString());
