@@ -10,7 +10,7 @@
             {
                 var sourceSize = decoder.FrameSize;
                 var outSize = new Size((int)(decoder.FrameSize.Width*0.5F), (int)(decoder.FrameSize.Height*0.5F));
-                var sourcePxF = AVPixelFormat.AV_PIX_FMT_NV12;
+                var sourcePxF = GetHWPixelFormat(devType); //AVPixelFormat.AV_PIX_FMT_NV12 for QSV
                 var outPxF = AVPixelFormat.AV_PIX_FMT_BGR24;
 
                 Console.WriteLine("Selected sourcePxF = " + sourcePxF);
@@ -62,7 +62,7 @@
                     return AVPixelFormat.AV_PIX_FMT_NV12;
 
                 case AVHWDeviceType.AV_HWDEVICE_TYPE_QSV:
-                    return AVPixelFormat.AV_PIX_FMT_QSV;
+                    return AVPixelFormat.AV_PIX_FMT_NV12;
 
                 case AVHWDeviceType.AV_HWDEVICE_TYPE_VIDEOTOOLBOX:
                     return AVPixelFormat.AV_PIX_FMT_VIDEOTOOLBOX;
