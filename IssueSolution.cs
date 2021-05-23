@@ -276,7 +276,6 @@ public sealed unsafe class VideoStreamDecoder : IDisposable
                 {
                     do
                     {
-                        //Стереть пакет
                         ffmpeg.av_packet_unref(_pPacket);
 
                         error = ffmpeg.av_read_frame(_pFormatContext, _pPacket);
